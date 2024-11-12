@@ -81,3 +81,15 @@ function startstop()
         stutus="Stopped";
     }
 }
+
+
+function Reset()
+{
+    seconds = 0;
+    minutes = 0;
+    hours = 0;
+    window.clearInterval(interval);
+    document.getElementById('display').innerHTML = '00:00:00';
+    document.getElementById('handler').innerHTML = 'Start';
+    stutus="Stopped";
+}
