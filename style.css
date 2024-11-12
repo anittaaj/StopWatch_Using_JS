@@ -1,0 +1,28 @@
+body{
+    background-color: violet;
+}
+
+.first {
+    margin: auto;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.second{
+
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+
+}
+
+.hour ,.minute ,.seconds{
+    width:25%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: springgreen;
+}
