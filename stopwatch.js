@@ -70,7 +70,7 @@ function startstop()
     if (stutus == 'Stopped')
     {
         interval=window.setInterval(StartWatch,1000);
-        document.getElementById('handler').innerHTML="Stop";
+        document.getElementById('handler').innerHTML="Pause";
         stutus="started";
 
     }

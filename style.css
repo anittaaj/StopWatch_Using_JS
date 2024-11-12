@@ -1,20 +1,25 @@
 body{
-    background-color: black;
+    background-image: url(./img/background.avif);
+    background-size: cover;
 }
 
 .stopwatch
 {
-    background-color: white;
+    background-color: black;
     width: 50%;
     margin: auto;
-    height: 25vh;
-    padding-top: 20px;
+    height: 50vh;
+    padding-top: 50px;
     margin-top: 15%;
+    color: white;
+    opacity: .7;
+    font-size: 25px;
 }
 button
 {
     background-color: white;
     border: 1px solid black;
-    width: 100px;
-    height: 30px;
+    width: 200px;
+    height: 40px;
+    font-size: x-large;
 }
