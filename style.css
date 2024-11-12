@@ -37,10 +37,14 @@ body{
 
 input{
 
-    width: 100px;
+
+    width: max-content;
     height: 50px;
     border: 2px solid black;
     border-radius: 50px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    padding: 5px;
 }
 
 h1{
