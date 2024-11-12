@@ -1,72 +1,20 @@
 body{
-    background-color: violet;
+    background-color: black;
 }
 
-.first {
-    margin: auto;
-    margin-top: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.second{
-
-    margin: auto;
-    margin-top: 100px;
+.stopwatch
+{
+    background-color: white;
     width: 50%;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.hour ,.minute ,.seconds{
-    width:20%;
-    height: 300px;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: springgreen;
-}
-
-.one,.two{
-
-    width:5%;
-    height: 300px;
-    border-radius: 10px;
-}
-
-input{
-
-
-    width: max-content;
-    height: 50px;
-    border: 2px solid black;
-    border-radius: 50px;
-    font-size: xx-large;
-    font-family: sans-serif;
-    padding: 5px;
-}
-
-h1{
-    width: max-content;
     margin: auto;
-    margin-top: 100px;
-    font-size: 100px;
-    color: white;
+    height: 25vh;
+    padding-top: 20px;
+    margin-top: 15%;
 }
-
-h3{
-    padding: 5px;
-    float: right;
-    font-size: xx-large;
-    color: white;
-}
-
-h2{
-    color: red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: xx-large;
-    margin: auto;
-    width:max-content;
-    text-decoration: underline;
+button
+{
+    background-color: white;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
 }
