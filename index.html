@@ -8,14 +8,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!--A Stopwatch starting with 0 minute ,sec and  milisec -->
+<!-- header-->
+    <h2>Stop Watch</h2>
+
+ <!--stopwtach -->
     <div class="first">
-        <div class="hour"></div>
-        <div class="minute"></div>
-        <div class="seconds"></div>
+        <div class="hour">
+            <h1>00</h1>
+            <h3>min</h3>
+        </div>
+        <div class="one"><h1>:</h1></div>
+        <div class="minute">
+            <h1>00</h1>
+            <h3>sec</h3>
+        </div>
+        <div class="two"><h1>:</h1></div>
+        <div class="seconds">
+            <h1>00</h1>
+            <h3>milisec</h3>
+        </div>
+<!--rest option-->
     </div>
     <div class="second">
-        <input type="button" value="Start"><br>
-        <input type="reset">
+        <input type="button" value="Start" id="start"><br>
+        <input type="button" value="Stop" id="stop"><br>
+        <input type="reset" value=" reset">
     </div>
 </body>
 </html>
